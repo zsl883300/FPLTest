@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "FPLTest"
-  spec.version      = "4.0.0"
+  spec.version      = "5.0.0"
   spec.summary      = "podtest"
     
   spec.description  = <<-DESC
