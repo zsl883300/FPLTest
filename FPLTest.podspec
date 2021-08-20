@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "10.0"
   
-  spec.source_files   =   'Frameworks/Livehelp.framework/Headers/*.h'
+  spec.source_files   =   'Livehelp.framework/Headers/*.h'
 
   spec.vendored_frameworks   =   'Frameworks/Livehelp.framework'
      
