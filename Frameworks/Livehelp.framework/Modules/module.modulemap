@@ -1,6 +1,0 @@
-framework module Livehelp {
-  umbrella header "Livehelp.h"
-
-  export *
-  module * { export * }
-}
