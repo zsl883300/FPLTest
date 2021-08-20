@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   
   spec.source_files   =   'Livehelp.framework/Headers/*.h'
 
-  spec.vendored_frameworks   =   'Frameworks/Livehelp.framework'
+  spec.vendored_frameworks   =   'Livehelp.framework'
      
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
