@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "FPLTest"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "podtest"
     
   spec.description  = <<-DESC
@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.platform     = :ios, "10.0"
-  spec.source_files = "Livehelp.framework/Headers/*.{h}"
-  spec.public_header_files = ["Livehelp/Livehelp.h"]
+  spec.source_files = "Livehelp.framework/*.{h}"
+  
 
 
   
