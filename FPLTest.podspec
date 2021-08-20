@@ -26,8 +26,8 @@ Pod::Spec.new do |spec|
   spec.source_files   =   "Livehelp.framework/Headers/*.{h}"
 
   spec.public_header_files = ["Livehelp/Livehelp.h"]
-
-  
+  spec.vendored_frameworks   =   'Livehelp.framework'
+  spec.libraries = 'iconv', 'xml2'
 
  
 
