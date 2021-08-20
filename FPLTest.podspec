@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "FPLTest"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary      = "podtest"
     
   spec.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.platform     = :ios, "10.0"
-  spec.source_files = "Livehelp.framework/*.{h}"
+  spec.vendored_frameworks = 'Livehelp.framework'
   
 
 
