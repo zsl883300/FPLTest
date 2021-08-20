@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.platform     = :ios, "10.0"
-  spec.vendored_frameworks   =   'Livehelp.framework'
+  
   spec.source_files   =   "Livehelp.framework/Headers/*.{h}"
 
   spec.public_header_files = ["Livehelp/Livehelp.h"]
