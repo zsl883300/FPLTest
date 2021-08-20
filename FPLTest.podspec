@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "podtest"
     
   spec.description  = <<-DESC
-       循环滚动播放图片,自动播放,手动播放123
+       测试测试测试测试测试测试
                    DESC
 
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "10.0"
   
-  spec.source_files   =   'Livehelp.framework/Headers/*.h'
+  spec.source_files   =   "Livehelp.framework/Headers/*.{h}"
 
   spec.vendored_frameworks   =   'Livehelp.framework'
   
