@@ -28,6 +28,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks   =   'Livehelp.framework'
      
 
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
